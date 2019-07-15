@@ -1,0 +1,39 @@
+
+
+project creation and compilation
+
+  create a quartus 16.1 fpga project
+
+  name the top-level logic name to pyblz_top
+
+
+  add 
+    top-level two .v files: 
+        pyblz_top.v
+        SysTop.v
+    and the pll file
+        de0nano_50m_altpll.qip
+
+  take out these pll files out from the  project
+        de0nano_50m_altpll.v
+        de0nano_50m_altpll_bb.v
+        de0nano_50m_altpll_inst.v
+
+  assign device to ep4ce22f17c6
+
+  import pin assgnment from 
+        pyblz_top_assignments.csv
+
+  change clock50 assignment from pin r8 to e1 as r8 is not a clock pin!
+
+
+
+result:
+
+        total logic elements:    1392/6272(22%)
+        total registers:          576
+        total memory bits        134144/276480(45%)
+        slow 1200mv 85c model fmax    75.87MHz
+        slow 1200ms 0c model fmax     84.54MHz
+
+

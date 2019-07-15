@@ -1,0 +1,28 @@
+
+list-files
+
+
+ls -lrt
+
+-rwxrwxr-x+   53832 Jan 19 15:37 SysTop.v
+drwxrwxr-x+       0 Jan 19 19:35 altcores
+-rw-rw-r--+    6144 Jan 19 20:04 rom0.vmem
+-rw-rw-r--+    6144 Jan 19 20:04 rom1.vmem
+-rw-rw-r--+    6144 Jan 19 20:04 rom2.vmem
+-rw-rw-r--+    6144 Jan 19 20:04 rom3.vmem
+-rwxrwxr-x+    2040 Jan 21 20:35 pyblz_top.v
+-rwxrwxr-x+    1623 Jan 21 20:38 pyblz_top_assignments.csv
+-rw-rw-r--+       0 Jul 14 20:16 list-files
+-rw-rw-r--+     807 Jul 14 20:54 readme-quartus-build
+
+
+ls -lrt altcores/ >> list-files
+
+-rwxrwxr-x+   15429 Jan 19 19:26 de0nano_50m_altpll.v
+-rwxrwxr-x+     487 Jan 19 19:26 de0nano_50m_altpll.ppf
+-rwxrwxr-x+    3260 Jan 19 19:26 de0nano_50m_altpll.bsf
+-rwxrwxr-x+     146 Jan 19 19:26 de0nano_50m_altpll_inst.v
+-rwxrwxr-x+   11523 Jan 19 19:26 de0nano_50m_altpll_bb.v
+-rwxrwxr-x+     666 Jan 19 19:26 de0nano_50m_altpll.qip
+
+
